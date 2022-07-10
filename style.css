@@ -64,15 +64,14 @@ header {
   margin-left: 100px;
 }
 .cow-video-left h1 {
-  font-size: 90px;
+  font-size: 50px;
   font-family: "Damion", cursive;
   color: rgb(5, 54, 128);
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .cow-video-left p {
-  font-size: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .cow-video-left a {
@@ -95,12 +94,12 @@ header {
 .cow-video-right {
   width: 50%;
   margin-left: 200px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 
 .main-cow-video {
-  width: 450px;
-  height: 800px;
+  /* width: 450px;
+  height: 800px; */
 }
 
 .salah {
