@@ -54,6 +54,7 @@ header {
   display: flex;
   height: 90vh;
   margin-top: 100px;
+  margin-bottom: 100px;
   background-color: rgb(226, 200, 205);
 }
 
@@ -63,9 +64,9 @@ header {
   margin-left: 100px;
 }
 .cow-video-left h1 {
-  font-size: 80px;
+  font-size: 90px;
   font-family: "Damion", cursive;
-  color: rgb(173, 10, 10);
+  color: rgb(5, 54, 128);
   margin-bottom: 90px;
 }
 
@@ -94,9 +95,71 @@ header {
 .cow-video-right {
   width: 50%;
   margin-left: 200px;
+  margin-top: -100px;
 }
 
 .main-cow-video {
   width: 450px;
-  height: 450px;
+  height: 800px;
+}
+
+.salah {
+  display: flex;
+  margin: 0 100px;
+  margin-bottom: 50px;
+}
+
+.salah-pic {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.salah-desc {
+  width: 50%;
+  margin-left: 70px;
+}
+.salah-desc h1 {
+  font-size: 80px;
+  color: darkslategrey;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.salah-desc p {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.salah-desc a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: rgb(22, 7, 1);
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: rgb(2, 243, 14);
+  transition: 0.5s;
+  margin-bottom: 100px;
+}
+.salah-desc a:hover {
+  background-color: blueviolet;
+  color: rgb(255, 251, 0);
+}
+
+.eid-jamat {
+  margin: 40px 0;
+}
+.eid-jamat h1 {
+  font-size: 100px;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(145, 21, 5);
+}
+.eid-jamat-pic {
+  height: 70vh;
+  width: 1787px;
+  border: 5px solid pink;
 }
