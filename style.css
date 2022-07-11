@@ -14,6 +14,30 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.nav-head ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-head li {
+  margin-top: 20px;
+  margin-right: 10px;
+  list-style: none;
+}
+.nav-head a {
+  color: rgb(173, 237, 196);
+  text-decoration: none;
+  background-color: rgb(1, 19, 42);
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.nav-head a:hover {
+  background-color: chocolate;
+  transition: 0.5s;
+}
+
 .banner {
   width: 700px;
   margin-left: 120px;
