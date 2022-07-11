@@ -68,12 +68,13 @@ header {
   font-weight: bold;
   border-radius: 10px;
   border: none;
+  transition: all 0.4s ease;
 }
 
 .btn:hover {
   background-image: linear-gradient(rgb(22, 250, 2), blue, rgb(250, 1, 1));
+  transition: all 0.4s ease;
 }
-/* kiajlshbjas */
 
 .kurbani-animals {
   margin: 50px 0;
@@ -132,7 +133,6 @@ header {
   width: 300px;
 }
 
-/* c oa */
 .cow-video {
   display: flex;
   height: 90vh;
@@ -143,14 +143,14 @@ header {
 
 .cow-video-left {
   width: 50%;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 100px;
 }
 .cow-video-left h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Damion", cursive;
   color: rgb(10, 164, 133);
-  margin-bottom: 60px;
+  margin-bottom: 45px;
 }
 
 .cow-video-left p {
@@ -193,7 +193,6 @@ header {
 }
 .salah-pic {
   width: 50%;
-  /* margin-top: 50px; */
 }
 
 .salah-desc {
@@ -205,12 +204,9 @@ header {
   color: darkslategrey;
   font-family: "Courgette", cursive;
   text-align: center;
-  /* margin-top: 30px; */
-  /* margin-bottom: 100px; */
 }
 
 .salah-desc p {
-  /* font-size: 24px; */
   margin-bottom: 60px;
 }
 
@@ -234,7 +230,7 @@ header {
 }
 
 .eid-jamat {
-  margin: 40px 0;
+  margin-top: 40px 0;
 }
 .eid-jamat h1 {
   font-size: 70px;
@@ -248,4 +244,32 @@ header {
   height: 80vh;
   width: 99%;
   border: 6px solid pink;
+}
+
+footer {
+  margin-top: -5px;
+}
+footer .foot {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+
+.foot span {
+  color: rgb(255, 0, 51);
+}
+
+footer .foot h1 {
+  padding-top: 35px;
+  margin-bottom: 20px;
+  font-family: "Courgette", cursive;
+  color: aqua;
+  font-size: 45px;
+}
+
+footer .foot p {
+  padding-bottom: 30px;
+  font-family: "Courgette", cursive;
+  font-size: 22px;
+  color: rgb(95, 235, 2);
 }
