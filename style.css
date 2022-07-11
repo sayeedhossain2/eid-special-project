@@ -16,13 +16,13 @@ header {
 }
 .banner {
   width: 700px;
-  margin-left: 160px;
+  margin-left: 120px;
   padding-top: 90px;
 }
 .banner h1 {
   font-size: 100px;
   color: rgb(230, 247, 0);
-  font-family: "Damion", cursive;
+  /* font-family: "Damion", cursive; */
 }
 .banner p {
   color: rgb(238, 255, 0);
