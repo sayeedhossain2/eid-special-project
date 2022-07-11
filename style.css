@@ -19,9 +19,13 @@ header {
   margin-left: 120px;
   padding-top: 90px;
 }
-.banner h1 {
+.banner-h1 {
   font-size: 100px;
-  color: rgb(230, 247, 0);
+  color: rgb(74, 247, 0);
+}
+.banner h1 {
+  /* font-size: 100px;
+  color: rgb(230, 247, 0); */
   /* font-family: "Damion", cursive; */
 }
 .banner p {
