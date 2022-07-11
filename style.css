@@ -49,7 +49,66 @@ header {
 .btn:hover {
   background-image: linear-gradient(rgb(22, 250, 2), blue, rgb(250, 1, 1));
 }
+/* kiajlshbjas */
 
+.kurbani-animals {
+  margin: 50px 0;
+}
+.kurbani-animals .kurbani-animals-heading h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Courgette", cursive;
+  color: dimgray;
+  margin-bottom: 25px;
+}
+.kurbani-animals .kurbani-animals-heading p {
+  width: 750px;
+  margin: 0 auto;
+}
+.kurbani-animals .card {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.kurbani-animals .card-item {
+  background-color: rgb(220, 243, 243);
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.kurbani-animals .card-item img {
+  height: 250px;
+  width: 300px;
+  display: block;
+}
+
+.kurbani-animals .card-desc {
+  width: 300px;
+  height: 200px;
+}
+
+.kurbani-animals .card-desc h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: "Courgette", cursive;
+  color: chocolate;
+}
+
+#sheep {
+  color: olive;
+}
+#goat {
+  color: rgb(5, 72, 91);
+}
+
+.kurbani-animals .card-desc p {
+  width: 300px;
+}
+
+/* c oa */
 .cow-video {
   display: flex;
   height: 90vh;
